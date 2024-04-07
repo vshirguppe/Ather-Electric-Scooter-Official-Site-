@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="menubar">
+        <div>
+            <nav>  
+                <div class="logostyle"><label class="logo" >A</label></div>          
+                <ul>
+                    <li><a href="scooter.html">Scooter</a></li>
+                    <li><a href="chargingpoint.html">Charging</a></li>
+                    <li><a href="feature.html" class="active">Features</a></li> 
+                </ul>                      
+            </nav>      
+        </div>
+    
+        <hr>
+    
+        <div>
+            <nav class="nav1">            
+                <ul class="ul1">
+                    <li><a href="index.html" >Home</a></li>
+                    <li><a href="from1.html" class="li1">Sign in</a></li> 
+                </ul>                      
+            </nav>      
+        </div>   
+    </div>
+    <div class="mainfeature">
+        <div class="vid">
+            <video autoplay muted loop controls id="myVideo" width="1348px">
+                <source src="ride-desktopvideo.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+        </div>
+        <div class="contofvid">
+            <div class="cont1">
+                <p class="f1h2">Riding</p>
+                <h1>Designed for<br>The our roads</h1>
+            </div>
+            <div class="cont2">
+                <p class="f1h2"><br><br><br><b>Water-resistant</b></p>
+                <p>Ip 67 rated pressure die<br> cast aluminum battery pack</p>
+            </div>
+            <div class="cont3">
+                <p class="f1h2"><br><br><br><b>Time we save your back</b></p>
+                <p>Centrally mounted monoshock <br>suspension in the rear</p>
+            </div>
+            <div class="cont4">
+                <p class="f1h2"><br><br><br><b>Stop</b></p>
+                <p>With two dic brakes<br> front & rear</p>
+            </div>
+        </div>
+    </div>
+    <div class="img">
+        <img src="images10.jpg" width="1348px">
+    </div>
+    <div class="lastcont">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="images11.jpg" style="width:1348px; height: 666px;">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">           
+              <img src="images12.jpg" style="width:1348px; height: 666px;">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="images13.jpg" style="width:1348px; height: 666px;">
+              <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images14.jpg" style="width:1348px; height: 666px;">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+                <img src="images15.jpg" style="width:1348px; height: 666px;">
+                <div class="text">Caption Three</div>
+              </div>
+
+              <div class="mySlides fade">
+                <img src="images16.jpg" style="width:1348px; height: 666px;">
+                <div class="text">Caption Three</div>
+              </div>
+            </div>
+            <br>           
+            <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+             
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+             
+              slides[slideIndex-1].style.display = "block";  
+             
+              setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+            </script>
+    </div>
+
+    <div class="footer">
+        <div class="index1">
+            <h2 class="f1h2">Ather</h2><br><br>
+            <a href="scooter.html" class="flist">Scooter</a><br><br>
+            <a href="chargingpoint.html" class="flist">Charging</a><br><br>
+            <a href="feature.html" class="flist">Feature</a><br><br>
+            <a href="index.html" class="flist">Home</a><br><br>
+            <a href="from1.html" class="flist">Sign in</a><br><br>
+           
+          </div>
+          <div class="Contact">
+            <h2 class="f1h2">Contact</h2><br><br>
+            <i class="material-icons" style="font-size:36px"  >place</i>&nbsp;&nbsp;Pune<br><br>
+            <i class="material-icons" >settings_phone</i>&nbsp;&nbsp;1234567890<br><br>
+            <i class="material-icons" >email</i>&nbsp;&nbsp;ather@gmail.com<br><br>
+      
+         </div>
+      
+      </div>
+   <div class="Copyright">
+     <p>
+       Copyright 1999-2022 by Refsnes Data. All Rights Reserved.</p>
+   </div>
+       </div>
+
+</body>
+</html>

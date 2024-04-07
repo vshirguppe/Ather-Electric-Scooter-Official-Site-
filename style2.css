@@ -1,0 +1,182 @@
+body{
+    background-color: black;
+    color: white;
+}
+/*header*/
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.menubar
+{
+  
+    background: rgb(43, 7, 25);
+    padding: 5px;
+    
+   
+}
+a
+{
+    color: white;
+}
+.logostyle
+{
+    margin-top: 10px;
+    padding: 7px;
+}
+.logo
+{
+    position: relative;
+
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Brush Script MT',cursive;
+    background-color: white;
+    color: black;
+    border-radius: 80%;
+}
+nav ul
+{
+    margin-left: 500px;
+    margin-bottom: 7px;
+    
+}
+nav ul li
+{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+   
+}
+.nav1 .ul1
+{
+    margin-left: 80%;  
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.nav1 .ul1 .li1
+{
+    display: inline-block;
+    font-size: 17px;
+}
+.nav1 .ul1 .active
+{
+    display: inline-block;
+    font-size: 17px;
+}
+a.active,a:hover
+{
+    background: white;
+    color: black;
+    transition: .5s;
+}
+/*vid*/
+.contofvid
+{
+    display: flex;
+    margin: 20px;
+    margin-left: 25px;
+    
+}
+.cont1
+{
+    padding: 50px;
+    font-size: 30px;
+    
+}
+.cont2
+{
+    padding: 25px;
+    font-size: 20px;
+}
+.cont3
+{
+    padding: 25px;
+    font-size: 20px;
+}
+.cont4
+{
+    padding: 25px;
+    font-size: 20px;
+}
+/*atuo sildeshow*/
+
+.mySlides {display: none;}
+
+
+/* Slideshow container */
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 260px) {
+  .text {font-size: 11px}
+}
+
+ /*footer*/
+ .footer
+ {
+   display: flex;
+ }
+ .index1
+ {
+     margin-left: 300px;
+     padding: 20px;
+     color: white;
+ }
+ .flist
+ {
+     color: white;
+ }
+ .Contact
+ {
+   margin-left: 400px;
+   padding: 20px;
+   color: white;
+}
+.Copyright
+{
+ background-color: rgb(43, 7, 25);
+ color: white;
+ padding: 50px;
+ text-align: center;
+}
+.flist:hover
+{
+ background-color: black;
+ color: white;
+}
+.f1h2
+{
+    color: rgb(255, 208, 0);
+}

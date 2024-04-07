@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="menubar">
+        <div>
+            <nav>  
+                <div class="logostyle"><label class="logo" >A</label></div>          
+                <ul>
+                    <li><a href="scooter.html">Scooter</a></li>
+                    <li><a href="chargingpoint.html">Charging</a></li>
+                    <li><a href="feature.html">Features</a></li> 
+                </ul>                      
+            </nav>      
+        </div>
+    
+        <hr>
+    
+        <div>
+            <nav class="nav1">            
+                <ul class="ul1">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="from1.html" class="li1">Sign in</a></li> 
+                </ul>                      
+            </nav>      
+        </div>   
+    </div>
+
+    <div class="maincont1">
+        <div class="cont1">
+            <div class="maintext1">
+                <p>Experience the Ather 450X</p>          
+            </div>
+            <div class="mainimg1">
+                <img src="images3.jpg" height="250px" width="300">
+            </div>
+        </div> 
+    </div>
+
+    <div class="info">
+        <div class="infoheading">
+            <h1 style="text-align: center;">450X Specs, Features and Price</h1>
+        </div>
+        <hr>
+        <div class="infocont">
+            <p style="text-align: center;">The Ather 450X is powered by 6000 W, Nominal Power - 3300 W PMSM Motor. 
+                The Ather 450X takes 5.45 Hours<br> to get fully charged its 2.9 kwh/Usable - 2.6 kWh battery . 
+                The Price of Ather 450X starts <br> at Rs 1.19 Lakh and goes up to Rs 1.38 Lakh (ex-showroom, Delhi). 
+               <br> It is available in two variants, Ather 450 Plus and Ather 450X.</p>
+        </div>
+    </div>
+
+    <div class="threebox">
+      <div class="mainbox1">
+
+        <div class="box1">
+            <img src="images8.jpg" height="250px" width="350">
+        </div>
+        <div class="box2">
+            <h2>Ather 450X</h2>
+            <div class="reviews">
+                <span class="heading">User Rating</span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <p>4.1 average based on 254 reviews.</p>
+                
+            </div>
+            <p>Rs.1.19 - 1.38 Lakh*</p><br>
+            <a href="scooter.html" class="boxbtn"> VIEW OFFERS</a>
+            
+        </div>
+      </div>
+      
+      <div class="mainbox2">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="images5.jpg" style="width:500px; height:280px" >
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="images6.jpg" style="width:500px; height:280px">
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="images7.jpg" style="width:500px; height:280px">
+              <div class="text"></div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            
+            <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+            }
+            </script>
+      </div>
+
+   </div>
+
+  <div class="video">
+    <video autoplay muted loop id="myVideo" width="1200px">
+      <source src="musicvideo.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    
+    <div class="content">
+      <i class="material-icons" style="font-size:36px">place</i> <i class="material-icons">blur_on</i>&nbsp; Use a google mape to find your way.<br><br>
+      <i class="material-icons">settings_bluetooth</i>&nbsp;&nbsp;&nbsp;<i class="material-icons">queue_music</i>&nbsp;&nbsp;&nbsp;You can listen a music.<br><br>
+      <i class="material-icons">settings_bluetooth</i>&nbsp;&nbsp;&nbsp;<i class="material-icons">settings_phone</i>&nbsp;&nbsp;&nbsp;You can attend a phone calls.<br><br>
+      
+    </div>
+    
+  </div>
+
+   <div class="footer">
+     <div class="index1">
+       <h2 class="f1h2">Ather</h2><br><br>
+        <a href="scooter.html" class="flist">Scooter</a><br><br>
+        <a href="chargingpoint.html" class="flist">Charging</a><br><br>
+        <a href="feature.html" class="flist">Feature</a><br><br>
+        <a href="index.html" class="flist">Home</a><br><br>
+        <a href="from1.html" class="flist">Sign in</a><br><br>
+     </div>
+     <div class="Contact">
+       <h2 class="f1h2">Contact</h2><br><br>
+       <i class="material-icons" style="font-size:36px"  >place</i>&nbsp;&nbsp;Pune<br><br>
+       <i class="material-icons" >settings_phone</i>&nbsp;&nbsp;1234567890<br><br>
+       <i class="material-icons" >email</i>&nbsp;&nbsp;ather@gmail.com<br><br>
+
+    </div>
+   
+   </div>
+<div class="Copyright">
+  <p>
+    Copyright 1999-2022 by Refsnes Data. All Rights Reserved.</p>
+</div>
+    </div>
+
+</body>
+</html>

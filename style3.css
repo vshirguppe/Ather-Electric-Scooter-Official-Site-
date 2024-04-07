@@ -1,0 +1,169 @@
+body{
+    background-color: black;
+    color: white;
+}
+/*header*/
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.menubar
+{
+  
+    background: rgb(43, 7, 25);
+    padding: 5px;
+    
+   
+}
+a
+{
+    color: white;
+}
+.logostyle
+{
+    margin-top: 10px;
+    padding: 7px;
+}
+.logo
+{
+    position: relative;
+
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Brush Script MT',cursive;
+    background-color: white;
+    color: black;
+    border-radius: 80%;
+}
+nav ul
+{
+    margin-left: 500px;
+    margin-bottom: 7px;
+    
+}
+nav ul li
+{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+   
+}
+.nav1 .ul1
+{
+    margin-left: 80%;  
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.nav1 .ul1 .li1
+{
+    display: inline-block;
+    font-size: 17px;
+}
+.nav1 .ul1 .active
+{
+    display: inline-block;
+    font-size: 17px;
+}
+a.active,a:hover
+{
+    background: white;
+    color: black;
+    transition: .5s;
+}
+
+.contcharging
+{
+    display: flex;
+    margin: 20px;
+}
+.text1
+{
+    padding: 30px;
+    font-size: 30px;
+    margin-left: 150px;
+}
+.text2
+{
+    padding: 40px;
+    font-size: 20px;
+}
+.imgtext
+{
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    margin-top: -450px;
+}
+
+.accordion { 
+    background-color: black; 
+    color: rgb(226, 226, 226);
+    cursor: pointer;
+     padding: 18px; 
+     width: 100%; 
+     border: none; 
+     text-align: left; 
+     outline: none;
+      font-size: 15px; 
+      transition: 0.4s;
+    }
+    .active, .accordion:hover { 
+        background-color: #ccc;
+        color: black;
+    }
+    .accordion:after { 
+        content: '\002B';
+         color: #777;
+    font-weight: bold;
+     float: right; 
+     margin-left: 5px;
+    }
+    .active:after { 
+        content: "\2212";
+    }
+    .panel { 
+        padding: 0 18px;
+    background-color: black; max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    }
+   
+     /*footer*/
+ .footer
+ {
+   display: flex;
+ }
+ .index1
+ {
+     margin-left: 300px;
+     padding: 20px;
+     color: white;
+ }
+ .flist
+ {
+     color: white;
+ }
+ .Contact
+ {
+   margin-left: 400px;
+   padding: 20px;
+   color: white;
+}
+.Copyright
+{
+ background-color: rgb(43, 7, 25);
+ color: white;
+ padding: 50px;
+ text-align: center;
+}
+.flist:hover
+{
+ background-color: black;
+ color: white;
+}
+.f1h2
+{
+    color: rgb(255, 208, 0);
+}

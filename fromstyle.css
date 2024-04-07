@@ -1,0 +1,194 @@
+body{
+    background-color: black;
+    color: white;
+}
+/*header*/
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.menubar
+{
+  
+    background: rgb(43, 7, 25);
+    padding: 5px;
+    
+   
+}
+a
+{
+    color: white;
+}
+.logostyle
+{
+    margin-top: 10px;
+    padding: 7px;
+}
+.logo
+{
+    position: relative;
+
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Brush Script MT',cursive;
+    background-color: white;
+    color: black;
+    border-radius: 80%;
+}
+nav ul
+{
+    margin-left: 500px;
+    margin-bottom: 7px;
+    
+}
+nav ul li
+{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+   
+}
+.nav1 .ul1
+{
+    margin-left: 80%;  
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.nav1 .ul1 .li1
+{
+    display: inline-block;
+    font-size: 17px;
+}
+.nav1 .ul1 .active
+{
+    display: inline-block;
+    font-size: 17px;
+}
+a.active,a:hover
+{
+    background: white;
+    color: black;
+    transition: .5s;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: yellow;
+
+}
+.vid
+{
+    display: flex;
+}
+.fromflex
+{
+    margin-left: 950px;
+    margin-top: -500px;
+    
+}
+
+.fromflex1
+{
+    margin-left: 950px;
+    margin-top: -400px;
+    
+}
+form {
+    width: 300px;
+    padding: 15px 40px 40px;
+}
+.fromlabel {
+    display: block;
+    margin-bottom: 5px
+}
+label i {
+    color: white;
+    font-size: 80%;
+}
+input, select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.row {
+    padding-bottom: 10px;
+}
+.form-inline {
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+}
+
+.form-inline label, .form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+}
+.error {
+    color: red;
+    font-size: 90%;
+
+}
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background:   yellow;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    margin-top: 10px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background:     #2f4f4f;
+}
+.contp
+{
+    font-size: 17px;
+    padding: 5px;
+    margin: 10px;
+}
+ /*footer*/
+ .footer
+ {
+   display: flex;
+   margin-top: 100px;
+ }
+ .index1
+ {
+     margin-left: 300px;
+     padding: 20px;
+     color: white;
+ }
+ .flist
+ {
+     color: white;
+ }
+ .Contact
+ {
+   margin-left: 400px;
+   padding: 20px;
+   color: white;
+}
+.Copyright
+{
+ background-color: rgb(43, 7, 25);
+ color: white;
+ padding: 50px;
+ text-align: center;
+}
+.flist:hover
+{
+ background-color: black;
+ color: white;
+}
+.f1h2
+{
+    color: rgb(255, 208, 0);
+}
